@@ -7,8 +7,12 @@ package java_con_netbeans;
 import java.util.Scanner;
 public class java_2 {
     public static void main(String[] args){
-        
-        
+        //creacion de pedidas de datos
+        Scanner leer = new Scanner(System.in);
+        System.out.println("Ingresa el primer numero: ");
+        int n1 = leer.nextInt();
+        System.out.println("Ingresa el segundo numero: ");
+        int n2 = leer.nextInt();
     }
     
 }
