@@ -13,6 +13,10 @@ public class java_2 {
         int n1 = leer.nextInt();
         System.out.println("Ingresa el segundo numero: ");
         int n2 = leer.nextInt();
+        //hacemos la suma de los dos números
+        int r = n1 + n2;
+        //inprimimos los resultados
+        System.out.println("El resultado es: "+r);
     }
     
 }
